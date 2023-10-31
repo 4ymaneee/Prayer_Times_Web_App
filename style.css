@@ -125,17 +125,22 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.main .data .prayers .pray img {
+    width: 38px;
+}
 .main .data .pray {
-    background-color: #d7d7d786;
+    background-color: #d7d7d79e;
     width: 16.2%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     transition: 0.7s;
+}
+
+.main .data .pray .info {
+    margin-left: 8px;
 }
 
 .main .data .pray h3 {

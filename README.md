@@ -2,7 +2,7 @@
 
 This is a simple web application that allows users to check daily prayer times for a specific city. The app fetches prayer time data from the Aladhan API and displays it in a user-friendly interface.
 
-![Prayer Times Web App](images/project%20pic.png)
+![Prayer Times Web App](images/pic%20of%20the%20final%20project.png)
 
 ## Features
 
