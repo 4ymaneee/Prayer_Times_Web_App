@@ -32,14 +32,8 @@ Follow the instructions below to get the project up and running on your local ma
 ### Usage
 
 1. 🌐 Open the web application in your web browser.
-
 2. 🏙️ You will see an input field where you can enter the name of a city.
-
 3. 🖊️ Type the name of the city you want to search for and press the "Search" button.
-
 4. 🕒 The web application will display the prayer times for the selected city.
-
 5. 📜 You can click on the prayer times to get additional information.
-
 6. 🌟 Enjoy using the Prayer Times Web App to stay informed about daily prayer times.
-
