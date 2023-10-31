@@ -12,7 +12,7 @@
     width: 100%;
     height: 100vh;
     padding: 20px 100px 30px 100px;
-    background-color: #89d0f36c;
+    background-color: #00000011;
 }
 
 .navbar {
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.navbar form {
+.navbar .form {
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -33,7 +33,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.navbar form input {
+.navbar .form input {
     width: 100%;
     height: 100%;
     border: none;
@@ -42,11 +42,16 @@
     font-size: 14.6px;
 }
 
-.navbar form .gps {
+.navbar .form .gps {
     font-size: 18.3px;
 }
-
-.navbar form .search {
+.navbar .form button {
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.navbar .form .search {
     font-size: 17px;
 }
 
@@ -77,19 +82,24 @@
 
 .main .picture .day h3 {
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     margin-right: 5px;
 
 }
 
 .main .picture .day i {
     color: white;
-    font-size: 27px;
+    font-size: 23px;
+}
+
+.main .picture .day .local {
+    color: rgba(255, 255, 255, 0.792);
+    font-size: 16px;
 }
 
 .main .picture .day p {
     color: rgba(255, 255, 255, 0.792);
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 3px;
 }
 
@@ -115,7 +125,7 @@
 }
 
 .main .data .pray {
-    background-color: #cdf5fdb0;
+    background-color: #d7d7d786;
     width: 16.2%;
     height: 100%;
     display: flex;
@@ -140,5 +150,6 @@
 .main .data .pray:hover {
     transform: scale(1.03);
     border: 2px solid black;
-    background-color: #a0e9ff8b;
+    background-color: #d7d7d79c;
 }
+

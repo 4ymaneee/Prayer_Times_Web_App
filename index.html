@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Prayer times</title>
 </head>
@@ -15,13 +16,13 @@
     <div class="container">
         <!-- NavBar Structure -->
         <div class="navbar">
-            <form action="">
+            <div class="form">
                 <i class="fa-solid fa-location-crosshairs gps"></i>
-                <input type="text" placeholder="Enter a city name">
-                <i class="fa-solid fa-magnifying-glass search"></i>
-            </form>
+                <input type="text" placeholder="Enter a city name" class="input">
+                <button class="btn"><i class="fa-solid fa-magnifying-glass search"></i></button>
+            </div>
 
-            <h3>Prayers<span style="color: #00A9FF;">Times</span></h3>
+            <i class="fa-solid fa-mosque"></i>
         </div>
 
         <div class="main">
@@ -30,37 +31,36 @@
                 <div class="day">
                     <h3 style="display: inline;">The Day </h3>
                     <i class="fa-regular fa-calendar-days"></i>
-                    <p>31 April 2023</p>
+                    <p class="date"></p>
+                    <p class="city-name"></p>
                 </div>
-
-                <h1>Prayers Times in Morocco</h1>
             </div>
 
             <div class="data">
                 <div class="prayers">
                     <div class="pray">
                         <h3>Al-Fajr</h3>
-                        <p>08:19PM</p>
+                        <p class="Fajr"></p>
                     </div>
                     <div class="pray">
-                        <h3>Sunset</h3>
-                        <p>08:19PM</p>
+                        <h3 >Sunrise</h3>
+                        <p class="Sunrise"></p>
                     </div>
                     <div class="pray">
                         <h3>Al-Duhr</h3>
-                        <p>08:19PM</p>
+                        <p class="Duhr"></p>
                     </div>
                     <div class="pray">
                         <h3>AL-Asr</h3>
-                        <p>08:19PM</p>
+                        <p class="Asr"></p>
                     </div>
                     <div class="pray">
                         <h3>Al-Maghrib</h3>
-                        <p>08:19PM</p>
+                        <p class="Maghrib"></p>
                     </div>
                     <div class="pray">
                         <h3>Al-Isha</h3>
-                        <p>08:19PM</p>
+                        <p class="Isha"></p>
                     </div>
                 </div>
             </div>
