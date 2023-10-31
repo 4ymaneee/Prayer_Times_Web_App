@@ -55,8 +55,10 @@
     font-size: 17px;
 }
 
-.navbar h3 {
-    font-size: 23px;
+.navbar .mosque {
+    color: black;
+    margin-right: 15px;
+    font-size: 45px;
 }
 
 /* Main Section */

@@ -44,8 +44,8 @@ function getPrayersTimes(cityName) {
 getPrayersTimes();
 getDate()
 
-//cityName
 
+//cityName
 let searchBtn = document.querySelector(".btn");
 let input = document.querySelector(".input");
 let city = document.querySelector(".city-name");
@@ -55,7 +55,12 @@ searchBtn.addEventListener("click", function () {
   if (capitalizeValue.length != 0) {
     city.innerHTML = `<i class="fa-solid fa-location-dot local"></i> ${capitalizeValue} `;
     getPrayersTimes(capitalizeValue);
+    clearValue()
   } else {
     alert("Please Enter a City Name");
   }
 });
+
+function clearValue() {
+    input.value = ''
+}
