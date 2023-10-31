@@ -1,8 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+/* NavBar Seaction */
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 100px 30px 100px;
+    background-color: rgba(189, 242, 242, 0.415);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar form {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    width: 23%;
+    height: 39.2px;
+    border-radius: 20px;
+    padding: 0px 11px 0px 11px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar form input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 9px;
+    font-size: 14.4px;
+}
+
+.navbar form .gps {
+    color: green;
+    font-size: 18.3px;
+}
+
+.navbar form .search {
+    font-size: 17px;
+}
+
+.navbar h3 {
+    font-size: 21.9px;
 }
